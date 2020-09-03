@@ -1,4 +1,5 @@
 #include <iostream>
+#include <windows.h> 
 int cr_reg[10];
 int j,sum_nele,sum_ele,sum_labs,sumcg,sumcr,count_nele,count_ele,count_labs;
 int data_in(int sem_no,int k);
@@ -9,6 +10,7 @@ using namespace std;
 int main()
 {
     int sem_no;
+     system("Color 0A");
      cout<<"How many semester result u have ?"<<endl;
      cin>>sem_no;
      for(int k=0;k<sem_no;k++)
